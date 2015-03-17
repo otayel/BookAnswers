@@ -1,0 +1,5 @@
+D:\Interviews\Cracking The Code\BookAnswers\Chapter4CSharp\bin\Debug\Chapter4CSharp.exe.config
+D:\Interviews\Cracking The Code\BookAnswers\Chapter4CSharp\bin\Debug\Chapter4CSharp.exe
+D:\Interviews\Cracking The Code\BookAnswers\Chapter4CSharp\bin\Debug\Chapter4CSharp.pdb
+D:\Interviews\Cracking The Code\BookAnswers\Chapter4CSharp\obj\Debug\Chapter4CSharp.exe
+D:\Interviews\Cracking The Code\BookAnswers\Chapter4CSharp\obj\Debug\Chapter4CSharp.pdb
