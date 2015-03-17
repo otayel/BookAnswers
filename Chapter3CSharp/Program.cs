@@ -10,7 +10,7 @@ namespace Chapter3CSharp
     {
         static void Main(string[] args)
         {
-            TestSortedStack();
+            TestAnimalShelter();
         }
 
         static void TestThreeStacks()
@@ -106,6 +106,27 @@ namespace Chapter3CSharp
             Console.WriteLine(stack.Peek());
             stack.Pop();
             Console.WriteLine(stack.Peek());
+        }
+
+        static void TestAnimalShelter()
+        {
+            AnimalShelter shelter = new AnimalShelter();
+            shelter.Enqueue(AnimalType.Dog);
+            shelter.Enqueue(AnimalType.Cat);
+            shelter.Enqueue(AnimalType.Dog);
+            shelter.Enqueue(AnimalType.Dog);
+            shelter.Enqueue(AnimalType.Cat);
+            shelter.Enqueue(AnimalType.Cat);
+
+            Console.WriteLine(shelter.DequeueAny().Type);
+            Console.WriteLine(shelter.DequeueDog().Type);
+            Console.WriteLine(shelter.DequeueCat().Type);
+            Console.WriteLine(shelter.DequeueAny().Type);
+            Console.WriteLine(shelter.DequeueCat().Type);
+            Console.WriteLine(shelter.DequeueCat().Type);
+            Console.WriteLine(shelter.DequeueDog().Type);
+            Console.WriteLine(shelter.DequeueAny().Type);
+            Console.WriteLine(shelter.DequeueAny().Type);
         }
     }
 }
