@@ -10,7 +10,7 @@ namespace Chapter3CSharp
     {
         static void Main(string[] args)
         {
-            TestTowersOfHanoi();
+            TestQueueUsingStack();
         }
 
         static void TestThreeStacks()
@@ -61,6 +61,26 @@ namespace Chapter3CSharp
         {
             TowersOfHanoi towers = new TowersOfHanoi(10);
             towers.MoveDisks();
+        }
+
+        static void TestQueueUsingStack()
+        {
+            QueueUsingStacks<int> queue = new QueueUsingStacks<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            queue.Enqueue(5);
+            queue.Enqueue(6);
+            Console.WriteLine(queue.Dequeue());
+            queue.Enqueue(7);
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
         }
     }
 }
