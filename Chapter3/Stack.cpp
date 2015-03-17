@@ -1,19 +1,19 @@
 #include "Stack.h"
 
-template <class T>
+template<class T>
 Stack<T>::Stack()
 {
 
 }
 
-template <class T>
+template<class T>
 void Stack<T>::push(T data)
 {
 	Node<T>* newNode = new Node < T > { data, topItem };
 	topItem = newNode;
 }
 
-template <class T>
+template<class T>
 void Stack<T>::pop()
 {
 	if (topItem)
@@ -24,7 +24,7 @@ void Stack<T>::pop()
 	}
 }
 
-template <class T>
+template<class T>
 T Stack<T>::top()
 {
 	return topItem->value;
