@@ -1,0 +1,6 @@
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.exe.config
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.exe
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.pdb
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.csprojResolveAssemblyReference.cache
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.exe
+C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.pdb

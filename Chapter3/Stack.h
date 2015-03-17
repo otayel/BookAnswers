@@ -1,12 +1,7 @@
 #ifndef STACK_H
 #define STACK_H
 
-template <class T>
-struct Node{
-	T value;
-	Node<T>* next;
-};
-
+#include "Node.h"
 
 template <class T>
 class Stack{
@@ -18,6 +13,7 @@ public:
 	void push(T data);
 	void pop();
 	T top();
+	bool empty();
 };
 
 template<class T>
@@ -48,5 +44,18 @@ template<class T>
 T Stack<T>::top()
 {
 	return topItem->value;
+}
+
+template < class T >
+bool Stack<T>::empty()
+{
+	if (!topItem)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 #endif

@@ -1,10 +1,12 @@
 #include <iostream>
 #include "Stack.h"
-#include <stack>
+#include "StackMin.h"
+#include "Queue.h"
+
 using namespace std;
-void main()
+
+void TryStack()
 {
-	stack<int> s;
 	Stack<int> myStack;
 	myStack.push(1);
 	myStack.push(2);
@@ -15,5 +17,41 @@ void main()
 	myStack.pop();
 	cout << myStack.top() << endl;
 	myStack.pop();
+}
 
+void TryQueue()
+{
+	Queue<int> myQueue;
+	myQueue.Enqueue(10);
+	cout << myQueue.Dequeue() << endl;
+	myQueue.Enqueue(15);
+	myQueue.Enqueue(1);
+	cout << myQueue.Dequeue() << endl;
+	cout << myQueue.Dequeue() << endl;
+	myQueue.Enqueue(101);
+	cout << myQueue.Dequeue() << endl;
+	cout << myQueue.Dequeue() << endl;
+}
+
+void TryMinStack()
+{
+	StackMin<int> myStack;
+	myStack.push(1);
+	cout << myStack.min() << endl;
+	myStack.push(2);
+	cout << myStack.min() << endl;
+	myStack.push(0);
+	cout << myStack.min() << endl;
+	myStack.pop();
+	cout << myStack.top() << endl;
+	cout << myStack.min() << endl;
+	myStack.pop();
+	cout << myStack.top() << endl;
+	cout << myStack.min() << endl;
+	myStack.pop();
+}
+
+void main()
+{
+	TryMinStack();
 }
