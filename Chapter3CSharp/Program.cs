@@ -10,7 +10,7 @@ namespace Chapter3CSharp
     {
         static void Main(string[] args)
         {
-            TestQueueUsingStack();
+            TestSortedStack();
         }
 
         static void TestThreeStacks()
@@ -81,6 +81,31 @@ namespace Chapter3CSharp
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
+        }
+
+        static void TestSortedStack()
+        {
+            SortedStack stack = new SortedStack();
+            stack.Push(10);
+            Console.WriteLine(stack.Peek());
+            stack.Push(9);
+            Console.WriteLine(stack.Peek());
+            stack.Push(8);
+            Console.WriteLine(stack.Peek());
+            stack.Push(7);
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
+            stack.Push(1);
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
         }
     }
 }
