@@ -4,3 +4,8 @@ C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3
 C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.csprojResolveAssemblyReference.cache
 C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.exe
 C:\Users\v-omtaye\Documents\GitHub\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.pdb
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.exe.config
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.exe
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.pdb
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.exe
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.pdb
