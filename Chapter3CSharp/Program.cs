@@ -10,7 +10,7 @@ namespace Chapter3CSharp
     {
         static void Main(string[] args)
         {
-            TestStackOfPlates();
+            TestTowersOfHanoi();
         }
 
         static void TestThreeStacks()
@@ -55,6 +55,12 @@ namespace Chapter3CSharp
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
+        }
+
+        static void TestTowersOfHanoi()
+        {
+            TowersOfHanoi towers = new TowersOfHanoi(10);
+            towers.MoveDisks();
         }
     }
 }

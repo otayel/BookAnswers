@@ -9,3 +9,4 @@ D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSh
 D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\bin\Debug\Chapter3CSharp.pdb
 D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.exe
 D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.pdb
+D:\Interviews\Cracking The Code\BookAnswers\Chapter3CSharp\obj\Debug\Chapter3CSharp.csprojResolveAssemblyReference.cache
