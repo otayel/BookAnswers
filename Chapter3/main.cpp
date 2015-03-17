@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Stack.h"
-#include "StackMin.h"
+#include "3.2 StackMin.h"
 #include "Queue.h"
 
 using namespace std;
