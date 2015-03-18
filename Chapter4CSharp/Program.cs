@@ -10,7 +10,7 @@ namespace Chapter4CSharp
     {
         static void Main(string[] args)
         {
-            TestGraphRoute();
+            TestBSTFromSortedArray();
         }
 
         static void TestBalancedTree()
@@ -45,6 +45,14 @@ namespace Chapter4CSharp
             node1.AddNode(node7);
 
             Console.WriteLine(new GraphRoute().CheckIfPathExists(node1, node3));
+        }
+
+        static void TestBSTFromSortedArray()
+        {
+            TreeNode root = new TreeNode();
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            new BSTFromSortedArray().ConstructTree(array, 0, array.Length - 1, ref root);
+            return;
         }
     }
 }

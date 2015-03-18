@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="4.1 CheckBalancedTree.cs" />
     <Compile Include="4.2 GraphRoute.cs" />
+    <Compile Include="4.3 BSTFromSortedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
