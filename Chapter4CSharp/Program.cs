@@ -10,7 +10,7 @@ namespace Chapter4CSharp
     {
         static void Main(string[] args)
         {
-            TestLinkedListFromTree();
+            TestCheckBST();
         }
 
         static void TestBalancedTree()
@@ -61,6 +61,14 @@ namespace Chapter4CSharp
             int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             new BSTFromSortedArray().ConstructTree(array, 0, array.Length - 1, ref root);
             var list = new LinkedListFromTree().CreateLinkedListsFromTree(root);
+        }
+
+        static void TestCheckBST()
+        {
+            TreeNode root = new TreeNode();
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 11, 9, 10 };
+            new BSTFromSortedArray().ConstructTree(array, 0, array.Length - 1, ref root);
+            Console.WriteLine(CheckBinarySearchTree.CheckBST(root) != -1 ? "Is BST" : "Isn't BST");
         }
     }
 }
