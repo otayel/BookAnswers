@@ -10,7 +10,7 @@ namespace Chapter4CSharp
     {
         static void Main(string[] args)
         {
-            TestNextInOrderSuccessor();
+            TestFindLowestCommonAncestor();
         }
 
         static void TestBalancedTree()
@@ -78,6 +78,16 @@ namespace Chapter4CSharp
             new BSTFromSortedArray().ConstructTree(array, 0, array.Length - 1, ref root);
             TreeNode node = root.Left.Left.Left;
             Console.WriteLine(NextInOrderSuccessor.FindNextInOrderSuccessor(node).Value);
+        }
+
+        static void TestFindLowestCommonAncestor()
+        {
+            TreeNode root = new TreeNode();
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 11, 9, 10 };
+            new BSTFromSortedArray().ConstructTree(array, 0, array.Length - 1, ref root);
+            TreeNode node1 = root.Left.Left.Left;
+            TreeNode node2 = root.Right.Left.Left;
+            Console.WriteLine(CommonAncestor.FindLowestCommonAncestor(node1, node2, root).Value);
         }
     }
 }
