@@ -50,6 +50,7 @@
     <Compile Include="4.7 CommonAncestor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="4.8 SubTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
