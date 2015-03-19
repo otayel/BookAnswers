@@ -38,6 +38,7 @@ namespace Chapter4CSharp
     {
         public TreeNode Left;
         public TreeNode Right;
+        public TreeNode Parent;
         public int Value;
     }
 }

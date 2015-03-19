@@ -63,5 +63,7 @@ namespace Chapter4CSharp
         public T Value { set; get; }
         public TreeNode<T> Left { set; get; }
         public TreeNode<T> Right { set; get; }
+
+        public TreeNode<T> Parent { set; get; }
     }
 }
